@@ -1,0 +1,17 @@
+"""Food"""
+from turtle import Turtle, Screen
+from random import randint
+
+class Food(Turtle):
+    def __init__(self, shape="turtle"):
+        super().__init__(shape)
+        self.penup()
+        self.shapesize(stretch_wid=0.5, stretch_len=0.5)
+        self.color("blue")
+        self.speed("fastest")
+        self.refresh()
+
+    def refresh(self):
+        random_x = randint(-280, 280)
+        random_y = randint(-280, 280)
+        self.goto(random_x, random_y)
