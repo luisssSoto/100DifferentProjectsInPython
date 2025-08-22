@@ -57,10 +57,8 @@ if len(written_states) == len(states_data_dict):
     turtle.goto(0, 250)
     turtle.write(arg="Congratulations yo did it!", align="center", font=("Courier", 20, "bold"))
 else:
-    with open("states_missing.csv", "w") as states_missing_file:
-        states_missing_file.write("Missing states:\n")
-        for state in states_data_dict:
-            if state not in written_states:
-                states_missing_file.write(state + '\n')
+    missing_states = [state for state in states_data_dict if state not in written_states ]
+    missing_states_file = pandas.DataFrame(missing_states)
+    missing_states_file.to_csv("states_missing.csv")
 
 screen.exitonclick()
