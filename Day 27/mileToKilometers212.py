@@ -6,10 +6,11 @@ FONT = ("Arial", 12)
 # Window
 my_window = tkinter.Tk()
 my_window.title("Mile to Km Converter")
+my_window.config(padx=50, pady=50)
 
 
 # Entry
-miles_entry = tkinter.Entry(width=20)
+miles_entry = tkinter.Entry(width=7)
 miles_entry.grid(column=1, row=0)
 
 # Label miles
