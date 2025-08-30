@@ -1,5 +1,7 @@
 from tkinter import Tk, Canvas, PhotoImage, Label, Button
 from math import floor
+import pygame
+
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -12,7 +14,22 @@ LONG_BREAK_MIN = 20
 reps = 0
 times = 1
 timer = None
-# ---------------------------- TIMER RESET ------------------------------- # 
+
+# ---------------------------- MUSIC ------------------------------------- #
+def play_alarm_sound():
+    pygame.mixer.init(frequency=16000)
+    pygame.mixer.music.load("assets/funny_alarm.mp3")
+    pygame.mixer.music.play(-1)
+
+def show_dismiss_button():
+    dismiss_button.grid(column=1, row=1)
+
+def dismiss_alarm_sound():
+    pygame.mixer_music.stop()
+    dismiss_button.grid_forget()
+    continue_button.grid(column=1, row=1)
+
+# ---------------------------- TIMER RESET ------------------------------- #
 def reset():
     my_window.after_cancel(timer)
     my_canvas.itemconfig(timer_text, text="00:00")
@@ -22,11 +39,12 @@ def reset():
     reps = 0
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 def start_time():
+    continue_button.grid_forget()
     global reps
     reps += 1
-    work_sec = .2 * 60
-    break_sec = .1 * 60
-    long_break_sec = .3 * 60
+    work_sec = WORK_MIN * 60
+    break_sec = SHORT_BREAK_MIN * 60
+    long_break_sec = LONG_BREAK_MIN * 60
 
     if reps % 2 != 0:
         count_down(work_sec) # green
@@ -37,7 +55,6 @@ def start_time():
     elif reps % 2 == 0:
         count_down(break_sec) # pink
         my_label.config(text="Break", fg=PINK)
-
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
@@ -52,15 +69,14 @@ def count_down(count):
         global timer
         timer = my_window.after(1000, count_down, count - 1)
     else:
-        start_time()
+        play_alarm_sound()
+        show_dismiss_button()
         if reps % 2 == 0:
             global times
             checkmarks = "✔"
             checkmarks *= times
             checkmark_label.config(text=checkmarks)
             times += 1
-
-
 
 # ---------------------------- UI SETUP ------------------------------- #
 # Window
@@ -69,7 +85,7 @@ my_window.title("Pomodoro Technique")
 my_window.config(padx=100, pady=50, bg=YELLOW)
 
 # Image
-tomato_img = PhotoImage(file="tomato.png")
+tomato_img = PhotoImage(file="assets/tomato.png")
 
 # Canvas
 my_canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
@@ -92,6 +108,12 @@ reset_button = Button(highlightthickness=0, command=reset)
 reset_button["text"] = "Reset"
 reset_button["font"] = FONT_NAME
 reset_button.grid(row=2, column=2)
+
+# "Dismiss" Button
+dismiss_button = Button(text="Dismiss", width=10, height=1, font=FONT_NAME, highlightthickness=0, command=dismiss_alarm_sound)
+
+# "Continue" Button
+continue_button = Button(text="Continue", width=10, height=1, font=FONT_NAME, highlightthickness=0, command=start_time)
 
 # Checkmark
 checkmark_label = Label()
