@@ -36,6 +36,5 @@ print(my_input.get())
 my_button2 = tkinter.Button(text="Enter", command=write_input_value)
 my_button2.pack()
 
-my_window.mainloop()
 # This sentence keep the window opened
 my_window.mainloop()
