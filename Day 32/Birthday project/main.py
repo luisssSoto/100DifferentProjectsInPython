@@ -30,7 +30,6 @@ for row in df:
         import smtplib
         with smtplib.SMTP("smtp.gmail.com", 587) as connection:
             connection.starttls()
-            print(f"email: {from_email}, password: {my_password}")
             connection.login(user=from_email, password=my_password)
             connection.sendmail(from_addr=from_email, to_addrs=row["email"], msg=f"Subject:Happy Birthday!\n\n{final_letter}")
 
