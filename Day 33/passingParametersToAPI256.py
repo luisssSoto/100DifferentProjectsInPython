@@ -1,8 +1,8 @@
 """Passing Parameters To API"""
 import requests
 
-LAT = 26.192566
-LNG = -98.184608
+LAT = 31.968599
+LNG = -99.901810
 
 coordinates = {
     "lat": LAT,
