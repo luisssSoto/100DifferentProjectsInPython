@@ -6,7 +6,7 @@ import datetime
 load_dotenv()
 APP_ID = os.getenv("APP_ID")
 API_KEY = os.getenv("APP_KEY")
-
+print(APP_ID)
 nutritionix_exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 
 headers = {
