@@ -26,10 +26,316 @@ content:
   - Day 15
   - Day 16-100
 additional_files:
-  - name: .idea/inspectionProfiles/Default.xml
-  - name: .idea/inspectionProfiles/Project_Default.xml
   - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: Day 1/task/task.py
+  - name: Day 1/task/solution.py
   - name: Day 3/__init__.py
+  - name: Day 7/task/main.py
+  - name: Day 7/task/__init__.py
+  - name: Day 7/task/solution.py
+  - name: Day 7/task/hangman_art.py
+  - name: Day 7/task/hangman_words.py
+  - name: Day 11/task/art.py
+  - name: Day 11/task/main.py
+  - name: Day 11/task/solution.py
+  - name: Day 12/Day 17/__init__.py
+  - name: Day 17/main.py
+  - name: Day 17/quiz-game-start/data.py
+  - name: Day 17/quiz-game-start/main.py
+  - name: Day 17/quiz-game-start/quiz_brain.py
+  - name: Day 17/quiz-game-start/question_model.py
+  - name: Day 18/main.py
+  - name: Day 18/131.dashLine.py
+  - name: Day 18/133.randomWalk.py
+  - name: Day 18/hirst_painting.jpeg
+    is_binary: true
+  - name: Day 18/129.Draw a Square.py
+  - name: Day 18/135.drawASpirograph.py
+  - name: Day 18/130.importModulesAndPIP.py
+  - name: Day 18/136.hirstPaintingProject.py
+  - name: Day 18/132.drawingDifferentShapes.py
+  - name: Day 19/144.raceApp.py
+  - name: Day 19/142.objectState.py
+  - name: Day 19/140.eventListeners.py
+  - name: Day 19/141.etchASketchApp.py
+  - name: Day 19/143.coordinateSystemTurtle.py
+  - name: Day 20/Snake149.py
+  - name: Day 20/Snake150.py
+  - name: Day 20/150.snakeMove.py
+  - name: Day 20/149.snakeClass.py
+  - name: Day 20/148.animatingSnake.py
+  - name: Day 20/147.snakeGameScreenAndSnake.py
+  - name: Day 21/Food158.py
+  - name: Day 21/main158.py
+  - name: Day 21/Snake158.py
+  - name: Day 21/highscore.txt
+  - name: Day 21/Scoreboard158.py
+  - name: Day 21/153.inheritance.py
+  - name: Day 22/ball.py
+  - name: Day 22/main.py
+  - name: Day 22/paddle.py
+  - name: Day 22/scoreboard.py
+  - name: Day 23/main.py
+  - name: Day 23/player.py
+  - name: Day 23/scoreboard.py
+  - name: Day 23/car_manager.py
+  - name: Day 24/new_file.txt
+  - name: Day 24/openReadWriteFile183.py
+  - name: Day 24/Mail Merge Project Start/Input/Names/invited_names.txt
+  - name: Day 24/Mail Merge Project Start/Input/Letters/starting_letter.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/example.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/letter_for_Aang.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/letter_for_Appa.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/letter_for_Momo.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/letter_for_Toph.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/letter_for_Zuko.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/letter_for_Sokka.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/letter_for_Katara.txt
+  - name: Day 24/Mail Merge Project Start/Output/ReadyToSend/letter_for_Uncle Iroh.txt
+  - name: Day 24/Mail Merge Project Start/main.py
+  - name: Day 24/absoluteAndRelativePath185.py
+  - name: Day 25/new_data.csv
+  - name: Day 25/US States Game/main.py
+  - name: Day 25/US States Game/50_states.csv
+  - name: Day 25/US States Game/states_missing.csv
+  - name: Day 25/US States Game/blank_states_img.gif
+    is_binary: true
+  - name: Day 25/weather_data.csv
+  - name: Day 25/readingCsvFile190.py
+  - name: Day 25/dataFramesSeries191.py
+  - name: Day 25/squirrel_color_count.csv
+  - name: Day 25/squirrelDataAnalysis192.py
+  - name: Day 25/2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20250815.csv
+  - name: Day 26/file1.txt
+  - name: Day 26/file2.txt
+  - name: Day 26/codingExercise15.py
+  - name: Day 26/codingExercise16.py
+  - name: Day 26/codingExercise17.py
+  - name: Day 26/codingExercise18.py
+  - name: Day 26/codingExercise19.py
+  - name: Day 26/NATO-alphabet-start/main.py
+  - name: Day 26/NATO-alphabet-start/nato_phonetic_alphabet.csv
+  - name: Day 26/dictComprehension199.py
+  - name: Day 26/listComprehension197.py
+  - name: Day 26/iteratePandasFrame200.py
+  - name: Day 27/args207.py
+  - name: Day 27/kwargs208.py
+  - name: Day 27/windowLabel205.py
+  - name: Day 27/packPlaceGrid211.py
+  - name: Day 27/mileToKilometers212.py
+  - name: Day 27/buttonsEntrySettings209.py
+  - name: Day 27/Other_Tkinter_Widgets210.py
+  - name: Day 28/dist/assets/tomato.png
+    is_binary: true
+  - name: Day 28/dist/assets/pomodoro.PNG
+    is_binary: true
+  - name: Day 28/dist/assets/funny_alarm.mp3
+    is_binary: true
+  - name: Day 28/dist/main.exe
+    is_binary: true
+  - name: Day 28/dist/tomato.png
+    is_binary: true
+  - name: Day 28/dist/funny_alarm.mp3
+    is_binary: true
+  - name: Day 28/build/main/main.pkg
+  - name: Day 28/build/main/EXE-00.toc
+  - name: Day 28/build/main/PKG-00.toc
+  - name: Day 28/build/main/PYZ-00.pyz
+    is_binary: true
+  - name: Day 28/build/main/PYZ-00.toc
+  - name: Day 28/build/main/warn-main.txt
+  - name: Day 28/build/main/xref-main.html
+  - name: Day 28/build/main/Analysis-00.toc
+  - name: Day 28/build/main/base_library.zip
+    is_binary: true
+  - name: Day 28/main.py
+  - name: Day 28/main.spec
+  - name: Day 29/main.py
+  - name: Day 29/data.txt
+  - name: Day 29/logo.png
+    is_binary: true
+  - name: Day 30/passwordManager2/main.py
+  - name: Day 30/passwordManager2/data.txt
+  - name: Day 30/passwordManager2/logo.png
+    is_binary: true
+  - name: Day 30/passwordManager2/data.json
+  - name: Day 30/codingExercise20.py
+  - name: Day 30/codingExercise21.py
+  - name: Day 30/catchingErrors228.py
+  - name: Day 30/codingExerciseNATO230.py
+  - name: Day 30/nato_phonetic_alphabet.csv
+  - name: Day 30/raisingOwnExceptions229.py
+  - name: Day 31/data/english_words.csv
+  - name: Day 31/data/words_to_learn.csv
+  - name: Day 31/images/right.png
+    is_binary: true
+  - name: Day 31/images/wrong.png
+    is_binary: true
+  - name: Day 31/images/card_back.png
+    is_binary: true
+  - name: Day 31/images/card_front.png
+    is_binary: true
+  - name: Day 31/main.py
+  - name: Day 31/main2.py
+  - name: Day 32/Birthday project/main.py
+  - name: Day 32/Birthday project/letter_templates/letter_1.txt
+  - name: Day 32/Birthday project/letter_templates/letter_2.txt
+  - name: Day 32/Birthday project/letter_templates/letter_3.txt
+  - name: Day 32/Birthday Wisher (Day 32) start/main.py
+  - name: Day 32/Birthday Wisher (Day 32) start/quotes.txt
+  - name: Day 32/Birthday Wisher (Day 32) start/datetimeModule246.py
+  - name: Day 32/Birthday Wisher (Day 32) start/motivationalQuotes247.py
+  - name: Day 33/main.py
+  - name: Day 33/kanyeChallenge255/main.py
+  - name: Day 33/kanyeChallenge255/kanye.png
+    is_binary: true
+  - name: Day 33/kanyeChallenge255/background.png
+    is_binary: true
+  - name: Day 33/apiEndpoints253.py
+  - name: Day 33/httpResponses254.py
+  - name: Day 33/passingParametersToAPI256.py
+  - name: Day 34/main/ui.py
+  - name: Day 34/main/images/true.png
+    is_binary: true
+  - name: Day 34/main/images/false.png
+    is_binary: true
+  - name: Day 34/main/data.py
+  - name: Day 34/main/main.py
+  - name: Day 34/main/quiz_brain.py
+  - name: Day 34/main/question_model.py
+  - name: Day 34/typeHints264.py
+  - name: Day 35/main.py
+  - name: Day 36/stock-news-extrahard-start/main.py
+  - name: Day 37/main.py
+  - name: Day 38/main.py
+  - name: Day 39/flight-deals-start/main.py
+  - name: Day 39/flight-deals-start/test.py
+  - name: Day 39/flight-deals-start/flight_data.py
+  - name: Day 39/flight-deals-start/data_manager.py
+  - name: Day 39/flight-deals-start/flight_search.py
+  - name: Day 39/flight-deals-start/notification_manager.py
+  - name: Day 40/main.py
+  - name: Day 40/flight_data.py
+  - name: Day 40/data_manager.py
+  - name: Day 40/flight_search.py
+  - name: Day 40/requirements.txt
+  - name: Day 40/notification_manager.py
+  - name: Day 41/2.3 Void Elements/goal.png
+    is_binary: true
+  - name: Day 41/2.3 Void Elements/index.html
+  - name: Day 41/2.3 Void Elements/solution.html
+  - name: Day 41/2.1 Heading Element/goal.png
+    is_binary: true
+  - name: Day 41/2.1 Heading Element/index.html
+  - name: Day 41/2.1 Heading Element/solution.html
+  - name: Day 41/2.2 Paragraph Element/goal.png
+    is_binary: true
+  - name: Day 41/2.2 Paragraph Element/index.html
+  - name: Day 41/2.2 Paragraph Element/solution.html
+  - name: Day 41/2.4 Movie Ranking Project/goal.png
+    is_binary: true
+  - name: Day 41/2.4 Movie Ranking Project/index.html
+  - name: Day 41/2.4 Movie Ranking Project/solution.html
+  - name: Day 42/3.0 List Elements/goal.png
+    is_binary: true
+  - name: Day 42/3.0 List Elements/index.html
+  - name: Day 42/3.0 List Elements/solution.html
+  - name: Day 42/3.3 Image Elements/goal1.png
+    is_binary: true
+  - name: Day 42/3.3 Image Elements/goal2.png
+    is_binary: true
+  - name: Day 42/3.3 Image Elements/index.html
+  - name: Day 42/3.3 Image Elements/solution1.html
+  - name: Day 42/3.3 Image Elements/solution2.html
+  - name: Day 42/3.2 Anchor Elements/goal.png
+    is_binary: true
+  - name: Day 42/3.2 Anchor Elements/index.html
+  - name: Day 42/3.2 Anchor Elements/solution.html
+  - name: Day 42/boilerplate313.html
+  - name: Day 42/3.1 Nesting and Indentation/goal.png
+    is_binary: true
+  - name: Day 42/3.1 Nesting and Indentation/index.html
+  - name: Day 42/3.1 Nesting and Indentation/solution.html
+  - name: Day 42/3.4 Birthday Invite Project/goal.png
+    is_binary: true
+  - name: Day 42/3.4 Birthday Invite Project/index.html
+  - name: Day 42/3.4 Birthday Invite Project/solution.html
+  - name: Day 43/5.1. Adding CSS/Solution/style.css
+  - name: Day 43/5.1. Adding CSS/Solution/inline.html
+  - name: Day 43/5.1. Adding CSS/Solution/external.html
+  - name: Day 43/5.1. Adding CSS/Solution/internal.html
+  - name: Day 43/5.1. Adding CSS/Solution/solution.html
+  - name: Day 43/5.1. Adding CSS/style.css
+  - name: Day 43/5.1. Adding CSS/index.html
+  - name: Day 43/5.1. Adding CSS/inline.html
+  - name: Day 43/5.1. Adding CSS/external.html
+  - name: Day 43/5.1. Adding CSS/internal.html
+  - name: Day 43/5.3 CSS Selectors/goal.png
+    is_binary: true
+  - name: Day 43/5.3 CSS Selectors/solution/solution.html
+  - name: Day 43/5.3 CSS Selectors/solution/solution-style.css
+  - name: Day 43/5.3 CSS Selectors/style.css
+  - name: Day 43/5.3 CSS Selectors/index.html
+  - name: Day 43/5.4 Color Vocab Project/assets/images/red.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/assets/images/blue.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/assets/images/green.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/assets/images/orange.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/assets/images/yellow.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/goal.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/solution/assets/images/red.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/solution/assets/images/blue.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/solution/assets/images/green.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/solution/assets/images/orange.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/solution/assets/images/yellow.png
+    is_binary: true
+  - name: Day 43/5.4 Color Vocab Project/solution/style.css
+  - name: Day 43/5.4 Color Vocab Project/solution/solution.html
+  - name: Day 43/5.4 Color Vocab Project/style.css
+  - name: Day 43/5.4 Color Vocab Project/index.html
+  - name: Day 44/6.0 CSS Colors/goal.png
+    is_binary: true
+  - name: Day 44/6.0 CSS Colors/index.html
+  - name: Day 44/6.0 CSS Colors/solution.html
+  - name: Day 44/6.3 CSS Box Model/goal.png
+    is_binary: true
+  - name: Day 44/6.3 CSS Box Model/index.html
+  - name: Day 44/6.3 CSS Box Model/solution.html
+  - name: Day 44/6.1 Font Properties/goal.png
+    is_binary: true
+  - name: Day 44/6.1 Font Properties/index.html
+  - name: Day 44/6.1 Font Properties/solution.html
+  - name: Day 44/6.1 Font Properties/font-size.html
+  - name: Day 44/6.1 Font Properties/font-family.html
+  - name: Day 44/6.4 Motivation Meme Project/assets/images/cry.jfif
+    is_binary: true
+  - name: Day 44/6.4 Motivation Meme Project/assets/images/daenerys.jpeg
+    is_binary: true
+  - name: Day 44/6.4 Motivation Meme Project/goal.png
+    is_binary: true
+  - name: Day 44/6.4 Motivation Meme Project/solution/assets/images/daenerys.jpeg
+    is_binary: true
+  - name: Day 44/6.4 Motivation Meme Project/solution/solution.css
+  - name: Day 44/6.4 Motivation Meme Project/solution/solution.html
+  - name: Day 44/6.4 Motivation Meme Project/style.css
+  - name: Day 44/6.4 Motivation Meme Project/index.html
+  - name: Day 45/main.py
+  - name: Day 45/bs4-start/main.py
+  - name: Day 45/bs4-start/main330.py
+  - name: Day 45/bs4-start/website.html
+  - name: Day 45/bs4-start/scrapping331.py
+  - name: Day 45/100 movies.txt
+  - name: Day 46/main.py
+  - name: README.md
 mode: Study
 feedback_link: https://plugins.jetbrains.com/plugin/25212-100-days-of-code--the-complete-python-pro-bootcamp/reviews
-yaml_version: 2
+yaml_version: 5
