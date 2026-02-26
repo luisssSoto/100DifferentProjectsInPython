@@ -19,7 +19,7 @@ class InstaFollower:
         pass_input.send_keys(password)
         login_btn = self.driver.find_element(By.CSS_SELECTOR, 'div[aria-label="Log In"]')
         login_btn.click()
-        self.driver.implicitly_wait(8)
+        self.driver.implicitly_wait(10)
         not_now_btn = self.driver.find_element(By.XPATH, "//div[contains(text(), 'Not now')]")
         not_now_btn.click()
 
@@ -29,10 +29,9 @@ class InstaFollower:
         search_input = self.driver.find_element(By.CSS_SELECTOR, 'input[aria-label="Search input"]')
         search_input.send_keys(account)
         time.sleep(3)
-        account_anchor = self.driver.find_element(By.CSS_SELECTOR, f'div[class^="html-div"] > a[href="/f{account}/"]')
+        account_anchor = self.driver.find_element(By.CSS_SELECTOR, f'div[class^="html-div"] > a[href="/{account}/"]')
         account_anchor.click()
         self.driver.implicitly_wait(3)
-
 
     def follow(self, account):
         followers_anchor = self.driver.find_element(By.CSS_SELECTOR, f'a[href="/{account}/followers/"]')
@@ -41,17 +40,16 @@ class InstaFollower:
         follow_btns = self.driver.find_elements(By.CSS_SELECTOR, 'button[class^=" _aswp _aswr _aswu"]')
         iframe = self.driver.find_element(By.CSS_SELECTOR, 'div[class^="x7r02ix"]')
         scroll_origin = ScrollOrigin.from_element(iframe)
-        while True:
-            count = 0
-            y = 100
-            for i in range(len(follow_btns)):
-                follow_btns[i].click()
-                if count == 5:
-                    count = 0
-                    ActionChains(self.driver).scroll_from_origin(scroll_origin, 0, y).perform()
-                    y += 100
-                count += 1
-            break
+        count = 0
+        y = 100
+        for i in range(len(follow_btns)):
+            follow_btns[i].click()
+            time.sleep(1)
+            if count == 5:
+                count = 0
+                ActionChains(self.driver).scroll_from_origin(scroll_origin, 0, y).perform()
+                y += 100
+            count += 1
 
 load_dotenv()
 user = os.getenv("INSTA_USERNAME")
