@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9dd3ce2-b1a5-46e5-9b92-d10e62463014" name="Changes" comment="">
+    <list default="true" id="3a3ed7fe-e0be-4a93-804c-608c7ceef1a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/100DifferentProjectsInPython.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/edu_terms.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/100DifferentProjectsInPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100DifferentProjectsInPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Day 1/Band Name Generator Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Band Name Generator Project/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day 1/Band Name Generator Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Band Name Generator Project/task-remote-info.yaml" afterDir="false" />
@@ -300,7 +297,7 @@
   "customColor": "",
   "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="36EGROPxrBtVTzKG1MQvcx4VMsW" />
+  <component name="ProjectId" id="3AwCmb1GbRPlTHOAss6w5cqjc4W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -312,23 +309,23 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "project46"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7bb8055f9097-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28238.29" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9dd3ce2-b1a5-46e5-9b92-d10e62463014" name="Changes" comment="" />
-      <created>1764564312952</created>
+      <changelist id="3a3ed7fe-e0be-4a93-804c-608c7ceef1a7" name="Changes" comment="" />
+      <created>1773494408934</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1764564312952</updated>
+      <updated>1773494408934</updated>
     </task>
     <servers />
   </component>
