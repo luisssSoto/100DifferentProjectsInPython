@@ -62,14 +62,14 @@ class FlightSearch:
         Retrieves the IATA code for a specified city using the Amadeus Location API.
 
         Parameters:
-        city_name (str): The name of the city for which to find the IATA code.
+        city_name (str): The name-card of the city for which to find the IATA code.
 
         Returns:
         str: The IATA code of the first matching city if found; "N/A" if no match is found due to an IndexError,
         or "Not Found" if no match is found due to a KeyError.
 
         The function sends a GET request to the IATA_ENDPOINT with a query that specifies the city
-        name and other parameters to refine the search. It then attempts to extract the IATA code
+        name-card and other parameters to refine the search. It then attempts to extract the IATA code
         from the JSON response.
 
         - If the city is not found in the response data (i.e., the data array is empty, leading to

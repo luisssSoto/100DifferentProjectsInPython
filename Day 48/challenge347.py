@@ -19,7 +19,7 @@ print(events)
 u_e = {}
 i = 0
 for time,event in zip(time, events):
-    u_e[i] = {"time": time, "name": event}
+    u_e[i] = {"time": time, "name-card": event}
     i += 1
 print(u_e)
 
@@ -30,10 +30,10 @@ upcoming_events = {}
 for i in range(len(events_date)):
     upcoming_events[i] = {
         "time": events_date[i].text,
-        "name": events_description[i].text,
+        "name-card": events_description[i].text,
     }
 print(upcoming_events)
 
 # Comprehension
-upcoming_events = {i: {"time": t.text, "name": d.text} for i, (t, d) in enumerate(zip(events_date, events_description))}
+upcoming_events = {i: {"time": t.text, "name-card": d.text} for i, (t, d) in enumerate(zip(events_date, events_description))}
 print(upcoming_events)

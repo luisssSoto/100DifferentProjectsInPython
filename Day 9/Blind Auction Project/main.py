@@ -1,5 +1,5 @@
 # TODO-1: Ask the user for input
-# TODO-2: Save data into dictionary {name: price}
+# TODO-2: Save data into dictionary {name-card: price}
 # TODO-3: Whether if new bids need to be added
 # TODO-4: Compare bids in dictionary
 
@@ -10,7 +10,7 @@ continue_auction = ''
 bidders_and_bids = {}
 
 while continue_auction != "no":
-    user_name = input("What is your name?: ")
+    user_name = input("What is your name-card?: ")
     user_bid = int(input("What is your bid?: "))
     continue_auction = input("Are there any other bidders? Type 'yes' or 'no'")
     bidders_and_bids[user_name] = user_bid

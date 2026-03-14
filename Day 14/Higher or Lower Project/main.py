@@ -17,17 +17,17 @@ import art, random, game_data
 
 def famous_introduction(famous, a_or_b):
     if a_or_b:
-        introduction = f'Compare A: {famous["name"]} a {famous["description"]}, from {famous["country"]}.'
+        introduction = f'Compare A: {famous["name-card"]} a {famous["description"]}, from {famous["country"]}.'
     else:
-        introduction = f'Against B: {famous["name"]} a {famous["description"]}, from {famous["country"]}.'
+        introduction = f'Against B: {famous["name-card"]} a {famous["description"]}, from {famous["country"]}.'
     return introduction
 
 
 def who_is_more_famous(user_decision, celebrity_a, celebrity_b):
     """it returns who famous has most followers"""
-    if user_decision["name"] == celebrity_a["name"]:
+    if user_decision["name-card"] == celebrity_a["name-card"]:
         celebrity_a = user_decision
-    elif user_decision["name"] == celebrity_b["name"]:
+    elif user_decision["name-card"] == celebrity_b["name-card"]:
         celebrity_b = user_decision
     if celebrity_a["follower_count"] > celebrity_b["follower_count"]:
         winner = celebrity_a
@@ -47,7 +47,7 @@ def get_user_famous(user_decision, followers_a, followers_b):
 
 def check_results(user_decision, winner):
     """it adds 1 point if the user's answer is right"""
-    if user_decision["name"] == winner["name"]:
+    if user_decision["name-card"] == winner["name-card"]:
         return True
     else:
         return False
@@ -62,7 +62,7 @@ def choosing_famous(celebrities, data, celebrity_a, celebrity_b):
 
 def check_repeat_famous(celebrities, data):
     """it checks if there are repeated celebrities"""
-    while celebrities[0]["name"] == celebrities[1]["name"]:
+    while celebrities[0]["name-card"] == celebrities[1]["name-card"]:
         del celebrities[1]
         celebrity_b = random.choice(data)
         celebrities.append(celebrity_b)

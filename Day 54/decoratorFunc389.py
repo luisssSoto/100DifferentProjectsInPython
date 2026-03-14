@@ -22,7 +22,7 @@ say_bye()
 
 # Without decorator
 def introduction():
-    print("my name is Alex")
+    print("my name-card is Alex")
 
 intro = delay_decorator(introduction)
 intro()

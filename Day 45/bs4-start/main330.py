@@ -23,7 +23,7 @@ print(h3)
 company_url = soup.select_one(selector="p a")
 print(company_url)
 
-name = soup.select_one(selector="#name")
+name = soup.select_one(selector="#name-card")
 print(name)
 
 headings = soup.select(selector=".heading")

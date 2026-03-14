@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return "<h1>Hello World</h1>"
 
-@app.route("/username/<name>/<int:years>/<path:last>")
+@app.route("/username/<name-card>/<int:years>/<path:last>")
 def greetings(name, years, last):
     return f"<p>Hello, {name}, you are {years} old, last: {last}</p>"
 

@@ -39,7 +39,7 @@ class InternetSpeedTwitterBot:
         windows = self.driver.window_handles
         pop_win = windows[1]
         self.driver.switch_to.window(pop_win)
-        password_input = self.driver.find_element(By.CSS_SELECTOR, 'input[name="password"]')
+        password_input = self.driver.find_element(By.CSS_SELECTOR, 'input[name-card="password"]')
         password_input.send_keys(password)
         login_btn = self.driver.find_element(By.CSS_SELECTOR, 'button[class^="css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-19"]')
         login_btn.click()

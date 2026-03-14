@@ -1,6 +1,6 @@
 #TODO: Create a letter using starting_letter.txt 
-#for each name in invited_names.txt
-#Replace the [name] placeholder with the actual name.
+#for each name-card in invited_names.txt
+#Replace the [name-card] placeholder with the actual name-card.
 #Save the letters in the folder "ReadyToSend".
 
 with open("./Input/Names/invited_names.txt", "r") as guests_file:
@@ -15,7 +15,7 @@ def write_letters(guests_list, type_letter):
     for guest in guests_list:
         guest = guest.strip()
         with open(f"./Output/ReadyToSend/letter_for_{guest}.txt", "w") as guest_letter:
-            edited_letter = type_letter.replace("[name]", guest)
+            edited_letter = type_letter.replace("[name-card]", guest)
             guest_letter.write(edited_letter)
 
 write_letters(guests, letter)

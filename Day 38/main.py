@@ -21,7 +21,7 @@ nutritionix_params = {
 response = requests.post(nutritionix_exercise_endpoint, json=nutritionix_params, headers=headers)
 data = response.json()
 
-my_exercise = data["exercises"][0]["name"].title()
+my_exercise = data["exercises"][0]["name-card"].title()
 my_duration = data["exercises"][0]["duration_min"]
 my_calories = data["exercises"][0]["nf_calories"]
 

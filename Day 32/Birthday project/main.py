@@ -16,12 +16,12 @@ import datetime
 import random
 dt = datetime.datetime.now()
 for row in df:
-    # 3. If step 2 is true, pick a random letter from letter templates and replace the [NAME] with the person's actual name from birthdays.csv
+    # 3. If step 2 is true, pick a random letter from letter templates and replace the [NAME] with the person's actual name-card from birthdays.csv
     if row["month"] == dt.month and row["day"] == dt.day:
         file_path = f"letter_templates/letter_{random.randint(1,3)}.txt"
         with open(file_path, "r") as letter:
             letter_list = letter.readlines()
-        first_row = letter_list[0].replace("[NAME]", row["name"])
+        first_row = letter_list[0].replace("[NAME]", row["name-card"])
         last_row = letter_list[-1].replace("Angela", "Alex")
         letter_list[0] = first_row
         letter_list[-1] = last_row

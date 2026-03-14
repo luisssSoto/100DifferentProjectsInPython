@@ -29,11 +29,11 @@ def show_health():
 print(show_health())
 print(player_health)
 
-# Note: each element which has a name (variables, functions, methods, etc) has a
+# Note: each element which has a name-card (variables, functions, methods, etc) has a
 # namespace and each namespace has a scope where it is valid that element
 
 '''A namespace is a named declarative region that helps organize 
 code and prevent naming conflicts. 
 Scope, on the other hand, refers to the region of a program where a 
-particular identifier (like a variable or function name) is valid 
+particular identifier (like a variable or function name-card) is valid 
 and can be accessed'''

@@ -13,9 +13,9 @@ class InstaFollower:
 
     def login(self, username, password):
         self.driver.get("https://www.instagram.com/")
-        email_input = self.driver.find_element(By.CSS_SELECTOR, 'input[name="email"]')
+        email_input = self.driver.find_element(By.CSS_SELECTOR, 'input[name-card="email"]')
         email_input.send_keys(username)
-        pass_input = self.driver.find_element(By.CSS_SELECTOR, 'input[name="pass"]')
+        pass_input = self.driver.find_element(By.CSS_SELECTOR, 'input[name-card="pass"]')
         pass_input.send_keys(password)
         login_btn = self.driver.find_element(By.CSS_SELECTOR, 'div[aria-label="Log In"]')
         login_btn.click()

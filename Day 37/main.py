@@ -24,7 +24,7 @@ graph_endpoint = f"{pixela_endpoint}/{user}/graphs"
 GRAPH_ID = "graph1"
 graph_params = {
     "id": GRAPH_ID,
-    "name": "coding_graph",
+    "name-card": "coding_graph",
     "unit": "day",
     "type": "int",
     "color": "sora"

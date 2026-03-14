@@ -8,4 +8,4 @@ print(type(94.3))
 print(type(True))
 
 # 3.
-print("Number of letters in your name: " + str(len(input("Enter your name "))))
+print("Number of letters in your name-card: " + str(len(input("Enter your name-card "))))
