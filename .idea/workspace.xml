@@ -1,168 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3a3ed7fe-e0be-4a93-804c-608c7ceef1a7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/100DifferentProjectsInPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100DifferentProjectsInPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Band Name Generator Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Band Name Generator Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Band Name Generator Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Band Name Generator Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Inputs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Inputs/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Inputs/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Inputs/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Printing/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Printing/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Printing/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Printing/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/String Manipulation/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/String Manipulation/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/String Manipulation/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/String Manipulation/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Variable Naming/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Variable Naming/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Variable Naming/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Variable Naming/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Variables/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Variables/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/Variables/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/Variables/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/Calculator Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Calculator Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/Calculator Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Calculator Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/Docstrings/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Docstrings/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/Docstrings/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Docstrings/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/Functions with Outputs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Functions with Outputs/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/Functions with Outputs/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Functions with Outputs/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/Multiple Return Values/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Multiple Return Values/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/Multiple Return Values/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Multiple Return Values/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 10/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 11/Blackjack Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 11/Blackjack Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 11/Blackjack Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 11/Blackjack Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 11/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 11/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 11/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 11/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Block Scope/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Block Scope/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Block Scope/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Block Scope/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Global Constants/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Global Constants/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Global Constants/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Global Constants/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Global Vars/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Global Vars/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Global Vars/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Global Vars/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Namespaces and Scope/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Namespaces and Scope/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Namespaces and Scope/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Namespaces and Scope/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Number Guessing Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Number Guessing Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/Number Guessing Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/Number Guessing Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Describe the Problem/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Describe the Problem/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Describe the Problem/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Describe the Problem/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Fix the Errors/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Fix the Errors/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Fix the Errors/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Fix the Errors/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Play Computer/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Play Computer/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Play Computer/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Play Computer/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Reproduce the Bug/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Reproduce the Bug/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Reproduce the Bug/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Reproduce the Bug/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Use Print/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Use Print/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Use Print/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Use Print/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Use a Debugger/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Use a Debugger/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/Use a Debugger/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/Use a Debugger/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 13/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 13/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 14/Higher or Lower Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 14/Higher or Lower Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 14/Higher or Lower Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 14/Higher or Lower Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 14/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 14/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 14/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 14/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 15/Coffee Machine Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 15/Coffee Machine Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 15/Coffee Machine Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 15/Coffee Machine Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 15/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 15/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 15/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 15/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 16-100/Where are the rest of the days/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 16-100/Where are the rest of the days/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 16-100/Where are the rest of the days/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 16-100/Where are the rest of the days/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 16-100/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 16-100/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 16-100/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 16-100/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Data Types/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Data Types/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Data Types/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Data Types/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Mathematical Operations/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Mathematical Operations/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Mathematical Operations/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Mathematical Operations/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Number Manipulation/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Number Manipulation/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Number Manipulation/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Number Manipulation/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Tip Calculator Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Tip Calculator Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Tip Calculator Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Tip Calculator Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Type Error, Checking and Conversion/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Type Error, Checking and Conversion/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/Type Error, Checking and Conversion/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/Type Error, Checking and Conversion/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/If Else/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/If Else/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/If Else/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/If Else/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Logical Operators/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Logical Operators/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Logical Operators/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Logical Operators/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Modulo/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Modulo/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Modulo/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Modulo/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Multiple Ifs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Multiple Ifs/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Multiple Ifs/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Multiple Ifs/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Nesting and Elif/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Nesting and Elif/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Nesting and Elif/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Nesting and Elif/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Python Pizza/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Python Pizza/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Python Pizza/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Python Pizza/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Treasure Island Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Treasure Island Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/Treasure Island Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Treasure Island Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 3/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/Banker Roulette/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/Banker Roulette/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/Banker Roulette/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/Banker Roulette/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/IndexError/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/IndexError/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/IndexError/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/IndexError/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/Lists/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/Lists/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/Lists/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/Lists/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/Random Module/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/Random Module/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/Random Module/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/Random Module/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/Rock Paper Scissors/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/Rock Paper Scissors/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/Rock Paper Scissors/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/Rock Paper Scissors/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 4/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 4/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/For Loops with Range/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/For Loops with Range/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/For Loops with Range/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/For Loops with Range/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/For Loops/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/For Loops/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/For Loops/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/For Loops/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/Highest Score/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/Highest Score/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/Highest Score/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/Highest Score/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/Password Generator Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/Password Generator Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/Password Generator Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/Password Generator Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 5/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 6/Functions/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 6/Functions/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 6/Functions/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 6/Functions/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 6/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 6/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 6/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 6/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 1/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 1/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 1/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 1/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 2/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 2/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 2/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 2/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 3/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 3/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 3/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 3/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 4/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 4/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 4/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 4/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 5/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 5/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Step 5/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Step 5/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Caesar Cipher 1/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Caesar Cipher 1/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Caesar Cipher 1/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Caesar Cipher 1/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Caesar Cipher 2/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Caesar Cipher 2/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Caesar Cipher 2/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Caesar Cipher 2/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Caesar Cipher 3/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Caesar Cipher 3/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Caesar Cipher 3/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Caesar Cipher 3/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Functions with Inputs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Functions with Inputs/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Functions with Inputs/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Functions with Inputs/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Positional vs Keyword Arguments/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Positional vs Keyword Arguments/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Positional vs Keyword Arguments/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Positional vs Keyword Arguments/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 9/Blind Auction Project/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 9/Blind Auction Project/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 9/Blind Auction Project/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 9/Blind Auction Project/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 9/Dictionaries/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 9/Dictionaries/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 9/Dictionaries/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 9/Dictionaries/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 9/Nested Lists and Dictionaries/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 9/Nested Lists and Dictionaries/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 9/Nested Lists and Dictionaries/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 9/Nested Lists and Dictionaries/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 9/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 9/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 9/lesson-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 9/lesson-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/challenge 404/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/challenge 404/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -298,17 +158,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Edu.LearningObjectsStorageType": "SQLite",
-    "Edu.Yaml.Migrate": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.server.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Edu.LearningObjectsStorageType&quot;: &quot;SQLite&quot;,
+    &quot;Edu.Yaml.Migrate&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.t.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;project57&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
