@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake News</title>
+</head>
+<body>
+    {% for new in fake_news %}
+        {% if new["id"] == 2: %}
+            <h1>{{new["title"]}}</h1>
+            <h2>{{new["subtitle"]}}</h2>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
