@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a3ed7fe-e0be-4a93-804c-608c7ceef1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 57/challenge 404/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 57/challenge 404/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 57/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 57/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/blog capstone/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/blog capstone/post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/blog capstone/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/blog capstone/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/blog capstone/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/challenge 405/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/challenge 405/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/challenge 406 url/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/challenge 406 url/templates/fakes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/challenge 406 url/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/100DifferentProjectsInPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100DifferentProjectsInPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -158,23 +168,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Edu.LearningObjectsStorageType&quot;: &quot;SQLite&quot;,
-    &quot;Edu.Yaml.Migrate&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.t.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;project57&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Edu.LearningObjectsStorageType": "SQLite",
+    "Edu.Yaml.Migrate": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.server.executor": "Run",
+    "Python.t.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "project57",
+    "last_opened_file_path": "C:/Users/AlexSoto/100DifferentProjectsInPython/Day 57/blog capstone"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AlexSoto\100DifferentProjectsInPython\Day 57\blog capstone" />
+      <recent name="C:\Users\AlexSoto\100DifferentProjectsInPython\Day 57\challenge 406 url" />
+      <recent name="C:\Users\AlexSoto\100DifferentProjectsInPython\Day 57\templates" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
       </set>
     </attachedChunks>
   </component>
