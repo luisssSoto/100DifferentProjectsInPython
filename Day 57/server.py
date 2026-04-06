@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import random, datetime, requests
+import random, datetime
 
 app = Flask(__name__)
 
