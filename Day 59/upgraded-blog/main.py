@@ -13,7 +13,7 @@ app = Flask(__name__)
 # https://api.npoint.io/36432034e91b2241461f/0/id
 
 def get_data():
-    response = requests.get(' https://api.npoint.io/36432034e91b2241461f')
+    response = requests.get('https://api.npoint.io/36432034e91b2241461f')
     response.raise_for_status()
     response = response.json()
     return response
