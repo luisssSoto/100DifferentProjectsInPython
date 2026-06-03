@@ -60,7 +60,7 @@ with app.app_context():
 #    book = db.session.execute(db.select(Books).where(Books.id == 1)).scalar()
 #    print(book.title)
 
-# # Updata a Record by Primary Key
+# # Update a Record by Primary Key
 # with app.app_context():
 #    book = db.session.execute(db.select(Books).where(Books.id == 1)).scalar()
 #    book.title = "Harry The Lucky Magician"
@@ -71,7 +71,7 @@ with app.app_context():
 #    book = db.session.execute(db.select(Books).where(Books.id == 1)).scalar()
 #    print(book.title)
 
-# Deleete a Particular Record By Primary Key
+# Delete a Particular Record By Primary Key
 # with app.app_context():
 #    book = db.session.execute(db.select(Books).where(Books.id == 1)).scalar()
 #    db.session.delete(book)
