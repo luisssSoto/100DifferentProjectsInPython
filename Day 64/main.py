@@ -39,9 +39,6 @@ print(MOVIE_DB_SEARCH_URL)
 print(MOVIE_DB_GET_MOVIE_URL)
 print(MOVIE_DB_IMG_URL)
 
-api_key = "92d8f4840154c48682e033161d8525d3"
-token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MmQ4ZjQ4NDAxNTRjNDg2ODJlMDMzMTYxZDg1MjVkMyIsIm5iZiI6MTc4MDIyODIzOC44NTIsInN1YiI6IjZhMWMyMDhlOTVjYTExZDgwZjA4YmIyZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GVfjlBXqaKtDgrEUEqL8i8OGRRIsNMTHm1i1NywQ9EU"
-
 # CREATE DB
 class Base(DeclarativeBase):
   pass
@@ -83,8 +80,6 @@ second_movie = Movie(
     review="I liked the water.",
     img_url="https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
 )
-
-movies = []
 
 @app.route("/")
 def home():
