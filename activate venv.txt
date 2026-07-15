@@ -4,8 +4,8 @@ Here is the complete quick-start workflow to create, activate, and manage your
 environment:
 1. Create the EnvironmentRun the creation command matching your operating 
 system inside your project directory:
-Windows: python -m venv .venvmacOS / 
-Linux: python3 -m venv .venv
+Windows: python -m venv .venv
+macOS / Linux: python3 -m venv .venv
 
 2. Activate the Environment
 You must activate the environment before installing packages 
