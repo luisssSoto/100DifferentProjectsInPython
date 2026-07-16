@@ -1,0 +1,36 @@
+A .gitignore file tells Git:
+
+"Ignore these files or folders. Don't track them or include them in commits."
+
+Typical files to ignore:
+
+Virtual environments (.venv/)
+Python cache (__pycache__/)
+Environment variables (.env)
+IDE settings (.vscode/)
+Log files (*.log)
+
+Example:
+
+.venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+Important note
+
+.gitignore only affects files that Git is not already tracking.
+
+If you already committed a file, adding it to .gitignore won't stop Git from tracking it.
+
+To stop tracking it:
+
+git rm --cached filename
+
+or for a folder:
+
+git rm -r --cached .venv
+
+Then commit the change:
+
+git commit -m "Stop tracking .venv"

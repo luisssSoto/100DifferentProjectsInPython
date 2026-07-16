@@ -1,0 +1,34 @@
+git clone in a nutshell
+
+git clone copies an existing GitHub repository to your computer.
+
+git clone <repository-url>
+
+Example:
+
+git clone https://github.com/username/my-project.git
+
+This command:
+
+Downloads the entire project.
+Downloads the complete commit history.
+Automatically configures the remote named origin.
+Creates a local folder with the repository name.
+After cloning
+
+Move into the project:
+
+cd my-project
+
+Check the status:
+
+git status
+
+See the configured remote:
+
+git remote -v
+
+Output:
+
+origin  https://github.com/username/my-project.git (fetch)
+origin  https://github.com/username/my-project.git (push)

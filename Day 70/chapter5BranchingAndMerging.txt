@@ -1,0 +1,99 @@
+Git Branching & Merging (Nutshell)
+What is a branch?
+
+A branch is an independent line of development. It lets you work on new features or bug fixes without affecting the main branch.
+
+main
+ │
+ ├───────────────►
+ │
+ └── feature-login
+      │
+      └────────►
+Complete Command Line Process
+1. Check your current branch
+git branch
+
+Output:
+
+* main
+
+The * indicates your current branch.
+
+2. Create a new branch
+git branch feature-login
+
+This creates the branch but does not switch to it.
+
+3. Switch to the new branch
+git switch feature-login
+
+Or create and switch in one command:
+
+git switch -c feature-login
+4. Verify your branch
+git branch
+
+Output:
+
+  main
+* feature-login
+5. Make your changes
+
+Edit your files.
+
+6. Stage your changes
+git add .
+7. Commit your changes
+git commit -m "Implement login page"
+8. Push the branch to GitHub
+
+The first time:
+
+git push -u origin feature-login
+
+After that:
+
+git push
+9. Switch back to main
+git switch main
+10. Merge the feature branch
+git merge feature-login
+
+Git will combine the commits from feature-login into main.
+
+11. Push the updated main
+git push
+12. Delete the feature branch (optional)
+
+Locally:
+
+git branch -d feature-login
+
+On GitHub:
+
+git push origin --delete feature-login
+Complete Workflow
+main
+ │
+ │ git switch -c feature-login
+ ▼
+feature-login
+ │
+ │ Edit files
+ │
+ │ git add .
+ │
+ │ git commit -m "Implement login"
+ │
+ │ git push -u origin feature-login
+ ▼
+GitHub (feature-login)
+
+        ↓
+Create Pull Request (or merge locally)
+
+git switch main
+git pull
+git merge feature-login
+git push

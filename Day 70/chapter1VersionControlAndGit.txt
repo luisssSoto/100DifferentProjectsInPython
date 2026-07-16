@@ -1,0 +1,15 @@
+The Three Stages
+1. The Working Directory (The Sandbox)
+What it is: The actual folder on your computer where you are creating, editing, and deleting files.
+
+The State: Git sees these files, but they are "untracked" or "modified." If your computer crashes right now, Git can't help you recover these changes.
+
+2. The Staging Area (The Loading Dock)
+What it is: A middle-ground draft area (often called the "Index").
+
+The State: You’re telling Git, "Hey, I want these specific changes to be in my next snapshot, but I'm not quite ready to lock them in yet." It lets you curate exactly what goes into your history.
+
+3. The Git Repository (The Vault)
+What it is: The .git folder hidden in your project directory.
+
+The State: Once you commit, your files are permanently compressed and saved into Git's history with a unique ID (SHA-1 hash). They are safe here.
