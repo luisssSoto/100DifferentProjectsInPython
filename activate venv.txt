@@ -2,6 +2,7 @@ To create a Python virtual environment named .venv, open your terminal, navigate
 project folder, and run python -m venv .venv (or python3 -m venv .venv on macOS/Linux).
 Here is the complete quick-start workflow to create, activate, and manage your 
 environment:
+
 1. Create the EnvironmentRun the creation command matching your operating 
 system inside your project directory:
 Windows: python -m venv .venv
@@ -19,7 +20,8 @@ Note: Successful activation will display (.venv) at the beginning of your termin
 dependencies:Install a package: pip install package_nameInstall from a file: 
 pip install -r requirements.txt
 
-4. Then select the interpreter .venv
+4. Then select the interpreter .venv 
+CTRL + SHIFT + P -> Python: Select Interpreter
 
 5. Deactivate the EnvironmentWhen you are finished working on this project, return to 
 your global system Python by typing:deactivate💡 
