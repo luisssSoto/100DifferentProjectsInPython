@@ -1,6 +1,11 @@
 import pandas
+from os import getenv
+from dotenv import load_dotenv
 
-data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20250815.csv")
+load_dotenv()
+root = getenv("ROOT")
+
+data = pandas.read_csv(root + "2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20250815.csv")
 
 squirrel_color_dict = {
     "Fur Color" : ["Gray", "Cinnamon", "Black"],

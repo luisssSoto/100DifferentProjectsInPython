@@ -1,7 +1,12 @@
 import pandas
+from os import getenv
+from dotenv import load_dotenv
+
+load_dotenv()
+root = getenv("ROOT")
 
 # DataFrame
-data = pandas.read_csv("weather_data.csv")
+data = pandas.read_csv(root + "weather_data.csv")
 print(type(data))
 data_dict = data.to_dict()
 print(data_dict)
