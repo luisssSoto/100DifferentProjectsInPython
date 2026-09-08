@@ -1,17 +1,21 @@
+import pandas
 from turtle import Turtle, Screen
+from os import getenv
+from dotenv import load_dotenv
+
+load_dotenv()
+root = getenv('ROOT')
 
 # set up the screen
 screen = Screen()
 screen.title("US States Game")
-image = "blank_states_img.gif"
+image = root + "US States Game/blank_states_img.gif"
 screen.addshape(image)
 turtle = Turtle()
 turtle.shape(image)
 
 # preparing the data
-import pandas
-
-states_data = pandas.read_csv("50_states.csv")
+states_data = pandas.read_csv(root + "US States Game/50_states.csv")
 
 state_column = states_data.state.to_list()
 x_column = states_data.x.to_list()
